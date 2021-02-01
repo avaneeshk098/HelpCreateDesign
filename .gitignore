@@ -1,5 +1,4 @@
 /node_modules
-/fonts
 .eslintrc.js
 .prettierrc
 package-lock.json
