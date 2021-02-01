@@ -128,6 +128,7 @@
     background-color: #f2d338;
     color: #293c73;
     transition: all ease-in 350ms;
+    -webkit-transition: all ease-in 350ms;
     cursor: pointer;
   }
 
@@ -145,6 +146,7 @@
 
   .register-link:hover {
     transition: all ease-in 350ms;
+    -webkit-transition: all ease-in 350ms;
     color: #d9bf3d;
   }
 
@@ -169,6 +171,7 @@
     padding-bottom: 2rem;
     background-color: #d4d8e3;
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -177,7 +180,7 @@
   .features-heading {
     font-family: 'arvo';
     color: #293c73;
-    font-size: xxx-large;
+    font-size: 2em;
     width: 100%;
     text-align: center;
   }
@@ -239,7 +242,7 @@
     font-family: 'arvo';
     width: 100%;
     text-align: center;
-    font-size: xxx-large;
+    font-size: 3em;
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
@@ -285,7 +288,7 @@
 
   .faq-heading {
     font-family: 'arvo';
-    font-size: xxx-large;
+    font-size: 4em;
     color: #f2d338;
   }
 
@@ -316,6 +319,7 @@
     color: #f2d338;
     cursor: pointer;
     transition: all ease-in 350ms;
+    -webkit-transition: all ease-in 350ms;
   }
 
   .faq-answer {
@@ -371,14 +375,19 @@
   .cta-button:hover {
     cursor: pointer;
     transition: all ease-in 350ms;
+    -webkit-transition: all ease-in 350ms;
     background-color: #f2d338;
+  }
+
+  .cta-button-desktop{
+    display: none;
   }
 
   .footer-title {
     font-family: 'arvo';
     width: 100%;
     text-align: center;
-    font-size: x-large;
+    font-size: 1.5em;
     color: #f2d338;
   }
 
@@ -433,7 +442,7 @@
   }
 
   .applications-heading {
-    font-size: xx-large;
+    font-size: 2em;
   }
 
   .cta-heading {
@@ -468,7 +477,7 @@
   }
 
   .hero-title {
-    font-size: xxx-large;
+    font-size: 4em;
   }
 
   .login-label {
@@ -511,6 +520,7 @@
     background-color: #f2d338;
     color: #293c73;
     transition: all ease-in 350ms;
+    -webkit-transition: all ease-in 350ms;
     cursor: pointer;
   }
 
@@ -527,6 +537,7 @@
 
   .register-link:hover {
     transition: all ease-in 350ms;
+    -webkit-transition: all ease-in 350ms;
     color: #d9bf3d;
   }
 
@@ -570,7 +581,7 @@
   }
 
   .feature-title {
-    font-size: xx-large;
+    font-size: 2em;
     margin-bottom: 2rem;
     color: #293c73;
   }
@@ -603,7 +614,7 @@
     font-family: 'arvo';
     width: 100%;
     text-align: center;
-    font-size: xxx-large;
+    font-size: 3.5em;
     padding-top: 4rem;
     padding-bottom: 2rem;
   }
@@ -651,7 +662,7 @@
 
   .faq-heading {
     font-family: 'arvo';
-    font-size: xxx-large;
+    font-size: 4em;
     color: #f2d338;
   }
 
@@ -682,6 +693,8 @@
     color: #f2d338;
     cursor: pointer;
     transition: all ease-in 350ms;
+    -webkit-transition: all ease-in 350ms;
+
   }
 
   .faq-answer {
@@ -744,7 +757,8 @@
   .cta-button-desktop:hover {
     cursor: pointer;
     transition: all ease-in 350ms;
-    background-color: #f2d338;
+    -webkit-transition: all ease-in 350ms;
+    background-color: #ffd70d;
   }
 
   .cta-button-container {
@@ -758,7 +772,7 @@
     font-family: 'arvo';
     width: 100%;
     text-align: center;
-    font-size: x-large;
+    font-size: 1.5em;
     color: #f2d338;
   }
 
