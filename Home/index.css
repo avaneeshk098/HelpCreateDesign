@@ -135,7 +135,7 @@
   .features {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    background-color: #f2f2f2;
+    background-color: #d4d8e3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,6 +145,7 @@
   .features-heading {
     font-family: 'arvo';
     color: #293c73;
+    font-size: xxx-large;
     width: 100%;
     text-align: center;
   }
@@ -156,7 +157,7 @@
   }
 
   .triangle-white {
-    background-color: #f2f2f2;
+    background-color: #d4d8e3;
   }
 
   .triangle-white .triangle-path {
@@ -181,25 +182,249 @@
     font-size: 1.5em;
     width: 80%;
     text-align: left;
-    color: #6f7da6;
+    color: #293c73;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
   .feature-description {
     margin-left: 10%;
+    font-weight: 500;
     margin-right: 10%;
     word-break: keep-all;
     font-family: 'montserrat';
   }
 
-  .feature-divider{
-      border: 0;
-      border-top: 2px#F2D338 solid;
-      width: 60%;
-      margin: 0 auto;
-      margin-top: 4rem;
-      margin-bottom: 2rem;
+  .feature-divider {
+    border: 0;
+    border-top: 2px#090909 solid;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .triangle-very-light {
+    background-color: #c3c9d9;
+  }
+
+  .triangle-very-light .triangle-path {
+    fill: #d4d8e3;
+  }
+
+  .applications {
+    background-color: #c3c9d9;
+  }
+
+  .applications-heading {
+    color: #192547;
+    font-family: 'arvo';
+    width: 100%;
+    text-align: center;
+    font-size: xxx-large;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .application-title {
+    font-size: 1.5em;
+    color: #293c73;
+  }
+
+  .application-description {
+    margin-top: 1rem;
+    font-size: 1em;
+  }
+
+  .application-item {
+    width: 80%;
+    background-color: #f2f2f2;
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 4px 4px 4px #989898;
+    margin-bottom: 2rem;
+    font-family: 'montserrat';
+  }
+
+  .application-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .triangle-light{
+    background-color: #596791;
+  }
+
+  .triangle-light .triangle-path{
+    fill:  #c3c9d9;
+  }
+
+  .faq{
+    background-color: #596791;
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    justify-content: center;
+  }
+
+  .faq-heading{
+    font-family: 'arvo';
+    font-size: xxx-large;
+    color: #f2d338;
+  }
+
+  .faq-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  .faq-item{
+    font-family: 'montserrat';
+    margin-bottom: 2rem;
+  }
+
+  .faq-item:last-of-type{
+    margin-bottom: none;
+  }
+
+  .faq-question{
+    outline: none;
+    border: none;
+    color: #f2f2f2;
+  }
+
+  .faq-question:hover{
+    color: #f2d338;
+    cursor: pointer;
+    transition: all ease-in 350ms;
+  }
+
+  .faq-answer{
+    color: #f2d338;
+    margin-top: 1rem;
+  }
+
+  .triangle-blue{
+    background-color: #3c4d7f;
+  }
+
+  .triangle-blue .triangle-path{
+    fill: #596791;
+  }
+
+  .triangle-black{
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+  }
+
+  .triangle-black .triangle-path{
+    fill: #293c73;
+  }
+
+  .cta { 
+    padding-top: 2rem;
+    background-color: #3c4d7f;
+  }
+
+  .cta-container{
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 2rem;
+    display: flex;
+  }
+
+  .cta-heading{
+    color: #D9BF3D;
+    font-family: 'arvo';
+    width: 100%;
+    text-align: center;
+  }
+
+  .cta-description{
+    margin-top: 1rem;
+    font-family: 'montserrat';
+    color: #f2f2f2;
+    margin-bottom: 2rem;
+  }
+
+  .cta-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    justify-content: center;
+  }
+
+  .cta-button{
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: #D9BF3D;
+    font-family: 'arvo';
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .cta-button:hover{
+    cursor: pointer;
+    transition: all ease-in 350ms;
+    background-color: #F2D338;
+  }
+
+.footer-title{
+    font-family: 'arvo';
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    color: #F2D338;
+}
+
+.footer-links{
+    padding-top: 1rem;
+    list-style: none;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+    font-family: 'montserrat';
+}
+
+.footer-link-item{
+    margin-bottom: 1rem;
+}
+
+.footer-name, .footer-copyright{
+    color: white;
+    font-family: 'montserrat';
+    width: 100%;
+    text-align: center;
+}
+
+.footer-copyright{
+    margin-top: 0.5rem;
+}
+
+  .footer{
+    z-index: -1;
+    width: 100%;
+    display: grid;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #293C73;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr auto 1fr;
   }
 }
 
@@ -209,6 +434,14 @@
   }
 
   .hero-title:last-of-type {
+    font-size: 1.9em;
+  }
+
+  .applications-heading {
+    font-size: xx-large;
+  }
+
+  .cta-heading{
     font-size: 1.9em;
   }
 }
