@@ -1,4 +1,4 @@
-AOS.init();
+AOS.init()
 
 class Accordion {
   constructor(el) {
