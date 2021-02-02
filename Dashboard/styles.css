@@ -1,0 +1,255 @@
+@import url('../fonts/stylesheet.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.grid-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-banner {
+  grid-column: 1/-1;
+  grid-row: 1 / span 3;
+  background: url('banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.grid-pic {
+    background-image: url('profile-img.jpg');
+    background-size: cover;
+    background-position: center;
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 2;
+  align-self: center;
+  justify-self: center;
+  z-index: 2;
+  height: 150px;
+  border: 5px solid #f0f0f0;
+  width: 150px;
+  border-radius: 100%;
+}
+
+.grid-info {
+  grid-row: 5/-1;
+  grid-column: 1 / span 2;
+  height: 100%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(7, 1fr);
+}
+
+.grid-box-info-1 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 3;
+  width: 60%;
+  height: 100%;
+  align-self: center;
+  justify-self: center;
+}
+
+.grid-box-info-1 h3{
+    font-family: 'montserrat';
+    font-size: 2.5em;
+    width: 100%;
+    text-align: center;
+}
+
+.grid-box-info-1 h6{
+    font-family: 'montserrat';
+    font-size: 1.25em;
+    color: rgb(39, 50, 112);
+    width: 100%;
+    text-align: center;
+}
+
+.grid-box-info-1 p{
+    font-family: 'montserrat';
+    margin-top: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.grid-box-info-2 {
+  width: 60%;
+  height: 100%;
+  grid-column: 1 / span 2;
+  grid-row: 5 / -1;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-box-info-2 h3{
+  color:rgb(39, 50, 112);
+  font-family: 'montserrat';
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.grid-box-info-2 img{
+  height: 100px;
+}
+
+.grid-box-info-2 p{
+  font-family: 'montserrat';
+  font-weight: 700;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.grid-button-1 {
+    grid-row: 4 / span 1;
+    grid-column: 3 / span 2;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-button-1 a{
+    text-decoration: none;
+}
+.grid-button-2 a{
+    text-decoration: none;
+}
+.grid-button-3 a{
+    text-decoration: none;
+}
+.grid-button{
+    width: 60%;
+    border-radius: 4px;
+    color: white;
+    height: 48px;
+    display: flex;
+    font-family: 'arvo';
+    padding: 1rem;
+    padding-left: 0;
+    justify-content: center;
+    background-color:  rgb(39, 50, 112);
+    align-items: center;
+}
+
+.grid-button:hover{
+    transition: all ease-in-out 500ms;
+    -webkit-transition: all ease-in-out 500ms;
+    background-color: #090909;
+    color: #f2d338;
+    cursor: pointer;
+}
+
+.grid-button-img{
+    height: 40px;
+    margin-right: 1rem;
+}
+
+.grid-button-2 {
+  grid-row: 4 / span 1;
+  grid-column: 5 / span 2;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-button-3 {
+  grid-row: 4 / span 1;
+  grid-column: 7 / span 2;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-bio {
+  grid-row: 5 / span 3;
+  grid-column: 3/-1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.bio-content{
+    grid-column: 1/3;
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+    background-color: #090909;
+}
+
+.bio-content h3{
+  font-family: 'montserrat';
+  font-size: 2em;
+  color: #f2d338;
+  margin-bottom: 1rem;
+}
+
+.bio-content p{
+  color: #fff;
+  font-family: 'montserrat';
+}
+
+.bio-connect-info{
+    grid-column: 3/-1;
+    margin-right: 20px;
+    padding: 1rem;
+    border-radius: 8px;
+    display: grid;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #000;
+}
+
+.bio-connect-info p{
+  font-family: 'montserrat';
+  color: white;
+  width: 100%;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.bio-number-info{
+  color: #f2d338;
+  font-size: 1.65em;
+}
+
+.grid-activity {
+  grid-row: 8/-1;
+  grid-column: 3/-1;
+  margin-top: 20px;
+  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.grid-activity h3{
+  color: rgb(39, 50, 112);
+  font-family: 'montserrat';
+  font-size: 2.5em;
+}
+
+.grid-activity p{
+  font-family: 'montserrat';
+  margin-top: 1rem;
+  color: rgba(0,0,0,0.5);
+  font-weight: 600;
+  font-size: 1.25em;
+}

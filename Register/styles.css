@@ -7,14 +7,29 @@
 }
 
 body {
-    background: rgb(111,125,166);
-background: -moz-radial-gradient(circle, rgba(111,125,166,1) 0%, rgba(82,98,145,1) 23%, rgba(41,60,115,1) 100%);
-background: -webkit-radial-gradient(circle, rgba(111,125,166,1) 0%, rgba(82,98,145,1) 23%, rgba(41,60,115,1) 100%);
-background: radial-gradient(circle, rgba(111,125,166,1) 0%, rgba(82,98,145,1) 23%, rgba(41,60,115,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6f7da6",endColorstr="#293c73",GradientType=1);
+  background: rgb(111, 125, 166);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(111, 125, 166, 1) 0%,
+    rgba(82, 98, 145, 1) 23%,
+    rgba(41, 60, 115, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(111, 125, 166, 1) 0%,
+    rgba(82, 98, 145, 1) 23%,
+    rgba(41, 60, 115, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(111, 125, 166, 1) 0%,
+    rgba(82, 98, 145, 1) 23%,
+    rgba(41, 60, 115, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6f7da6",endColorstr="#293c73",GradientType=1);
 }
 
-.form-img{
+.form-img {
   height: 80px;
   display: block;
   margin: 0 auto;
@@ -22,8 +37,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6f7da6",endCo
   margin-bottom: 2rem;
 }
 
-
-.form-container{
+.form-container {
   display: block;
   margin: 0 auto;
   background-color: white;
@@ -31,60 +45,60 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6f7da6",endCo
   padding: 2rem;
   border-radius: 4px;
   border: none;
-  background-color: rgb(39, 50,112);
-  box-shadow: 2px 2px 4px rgba(255,255,255, 0.5);
+  background-color: rgb(39, 50, 112);
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 }
 
-.form-group{
+.form-group {
   margin-bottom: 2rem;
 }
 
-.form-field{
+.form-field {
   height: 40px;
   margin-top: 8px;
-  width :100%;
+  width: 100%;
   outline: none;
-  border: 1px solid rgba(0,0,0,0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 
-.form-group label{
+.form-group label {
   font-family: 'montserrat';
   color: #fff;
   font-weight: 500;
 }
 
-.form-group-desktop{
+.form-group-desktop {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
 }
 
-.form-address-group{
+.form-address-group {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px; 
+  grid-gap: 10px;
 }
 
-.form-submit{
+.form-submit {
   grid-column-start: 2;
   height: 40px;
   border-radius: 4px;
   outline: none;
-  border: 1px solid rgba(0,0,0,0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   font-family: 'arvo';
-  background-color: #D9BF3D;
-  color: #293C73;
+  background-color: #d9bf3d;
+  color: #293c73;
 }
 
-.form-submit:hover{
+.form-submit:hover {
   cursor: pointer;
-  background-color: #F2D338;
+  background-color: #f2d338;
   transition: all ease-in-out 350ms;
 }
 
-@media screen and (min-width: 900px){
-  body{
+@media screen and (min-width: 900px) {
+  body {
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -92,18 +106,24 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6f7da6",endCo
   }
 }
 
-@media screen and (max-width: 900px){
-  .form-img{
+@media screen and (max-width: 900px) {
+  .form-container {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .form-img {
     height: 45px;
     width: auto;
   }
 
-  .form-group-desktop{
+  .form-group-desktop {
     display: flex;
     flex-direction: column;
   }
 
-  .form-address-group{
+  .form-address-group {
     display: flex;
     flex-direction: column;
   }
