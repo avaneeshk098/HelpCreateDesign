@@ -6,7 +6,7 @@
   padding: 0;
 }
 
-.triangle{
+.triangle {
   width: 100%;
   height: 150px;
   margin-bottom: -1rem;
@@ -35,11 +35,11 @@
   fill: #596791;
 }
 
-.triangle-black{
+.triangle-black {
   background-color: #293c73;
 }
 
-.triangle-black .triangle-path{
+.triangle-black .triangle-path {
   fill: #3c4d7f;
 }
 /* End of global styles */
@@ -217,7 +217,7 @@
     justify-content: center;
   }
 
-  .applications-item-heading{
+  .applications-item-heading {
     font-size: 2.5em;
     font-family: 'arvo';
     text-align: center;
@@ -225,11 +225,11 @@
     margin-bottom: 3rem;
   }
 
-  .applications-item-heading:last-of-type{
+  .applications-item-heading:last-of-type {
     margin-top: 3rem;
   }
 
-  .application-img{
+  .application-img {
     width: 100%;
     height: 100px;
     margin-bottom: 1rem;
@@ -286,7 +286,7 @@
     margin-top: 1rem;
   }
 
-  .contact{
+  .contact {
     background-color: #3c4d7f;
     padding-top: 2rem;
     padding-left: 10%;
@@ -294,7 +294,7 @@
     padding-right: 10%;
   }
 
-  .contact-info-title{
+  .contact-info-title {
     width: 100%;
     text-align: left;
     margin-bottom: 2rem;
@@ -304,41 +304,41 @@
     font-size: 3em;
   }
 
-  .contact-title{
+  .contact-title {
     color: #d9bf3d;
     font-family: 'arvo';
     font-size: 3em;
   }
 
-  .contact-container{
+  .contact-container {
     display: flex;
     flex-direction: column;
   }
 
-  .contact-form-container{
+  .contact-form-container {
     width: 100%;
   }
 
-  .contact-form{
+  .contact-form {
     display: flex;
     margin-top: 1rem;
     margin-bottom: 1rem;
     flex-direction: column;
   }
 
-  .contact-label{
+  .contact-label {
     color: white;
     font-family: 'montserrat';
     margin-bottom: 1rem;
     margin-top: 1rem;
   }
 
-  .contact-field{
+  .contact-field {
     height: 40px;
     width: 100%;
   }
 
-  .contact-details-container{
+  .contact-details-container {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -346,28 +346,28 @@
     justify-content: center;
   }
 
-  .contact-detail-item{
+  .contact-detail-item {
     background-color: white;
     border-radius: 4px;
     width: 100%;
-    box-shadow: 2px 2px 4px rgba(245,245,245,0.5);
+    box-shadow: 2px 2px 4px rgba(245, 245, 245, 0.5);
     padding: 1rem;
     display: flex;
     align-items: center;
     margin-bottom: 3rem;
   }
 
-  .contact-mail{
+  .contact-mail {
     width: 50px;
   }
 
-  .contact-detail-info{
+  .contact-detail-info {
     font-family: 'arvo';
     color: #293c73;
     word-break: break-all;
     margin-left: 2rem;
   }
-  
+
   .cta {
     padding-top: 2rem;
     background-color: #293c73;
@@ -482,11 +482,11 @@
     font-size: 1.9em;
   }
 
-  .contact-info-title{
+  .contact-info-title {
     font-size: 2em;
   }
 
-  .contact-title{
+  .contact-title {
     font-size: 2em;
   }
 
@@ -628,9 +628,9 @@
     font-family: 'montserrat';
   }
 
-  .application-row{
+  .application-row {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .application-list {
     display: grid;
@@ -641,7 +641,7 @@
     justify-content: center;
   }
 
-  .applications-item-heading{
+  .applications-item-heading {
     font-size: 2.5em;
     font-family: 'arvo';
     text-align: center;
@@ -649,11 +649,11 @@
     margin-bottom: 3rem;
   }
 
-  .applications-item-heading:last-of-type{
+  .applications-item-heading:last-of-type {
     margin-top: 3rem;
   }
 
-  .application-img{
+  .application-img {
     width: 100%;
     height: 125px;
     margin-bottom: 1rem;
@@ -710,7 +710,7 @@
     margin-top: 1rem;
   }
 
-  .contact{
+  .contact {
     background-color: #3c4d7f;
     padding-top: 2rem;
     padding-left: 10%;
@@ -718,7 +718,7 @@
     padding-right: 10%;
   }
 
-  .contact-info-title{
+  .contact-info-title {
     width: 70%;
     text-align: left;
     margin-bottom: 2rem;
@@ -727,40 +727,40 @@
     font-size: 2em;
   }
 
-  .contact-title{
+  .contact-title {
     color: #d9bf3d;
     font-family: 'arvo';
     font-size: 3em;
   }
 
-  .contact-container{
+  .contact-container {
     display: flex;
   }
 
-  .contact-form-container{
+  .contact-form-container {
     width: 50%;
   }
 
-  .contact-form{
+  .contact-form {
     display: flex;
     margin-top: 1rem;
     margin-bottom: 1rem;
     flex-direction: column;
   }
 
-  .contact-label{
+  .contact-label {
     color: white;
     font-family: 'montserrat';
     margin-bottom: 1rem;
     margin-top: 1rem;
   }
 
-  .contact-field{
+  .contact-field {
     height: 40px;
     width: 100%;
   }
 
-  .contact-details-container{
+  .contact-details-container {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -768,22 +768,22 @@
     justify-content: center;
   }
 
-  .contact-detail-item{
+  .contact-detail-item {
     background-color: white;
     border-radius: 4px;
     width: 70%;
-    box-shadow: 2px 2px 4px rgba(245,245,245,0.5);
+    box-shadow: 2px 2px 4px rgba(245, 245, 245, 0.5);
     padding: 1rem;
     display: flex;
     align-items: center;
     margin-bottom: 3rem;
   }
 
-  .contact-mail{
+  .contact-mail {
     width: 50px;
   }
 
-  .contact-detail-info{
+  .contact-detail-info {
     font-family: 'arvo';
     color: #293c73;
     word-break: break-all;
@@ -905,7 +905,7 @@
   }
 }
 
-.footer-link:hover{
+.footer-link:hover {
   transition: all ease-in 350ms;
   color: #f2d338;
 }
