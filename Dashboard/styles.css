@@ -113,6 +113,8 @@
   font-family: 'montserrat';
   font-weight: 700;
   margin-top: 8px;
+  width: 100%;
+  text-align: center;
   margin-bottom: 8px;
 }
 .grid-button-1 {
@@ -132,7 +134,7 @@
     text-decoration: none;
 }
 .grid-button{
-    width: 60%;
+    width: 80%;
     border-radius: 4px;
     color: white;
     height: 48px;
@@ -199,6 +201,7 @@
 
 .bio-content p{
   color: #fff;
+  font-size: 0.9em;
   font-family: 'montserrat';
 }
 
@@ -252,4 +255,10 @@
   color: rgba(0,0,0,0.5);
   font-weight: 600;
   font-size: 1.25em;
+}
+
+@media screen and (max-width: 958px){
+  body{
+    display: none;
+  }
 }
