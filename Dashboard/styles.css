@@ -737,12 +737,12 @@ a {
 }
 
 @media screen and (max-width: 7680px) {
-  .logo{
+  .logo {
     width: 175px;
     height: 175px;
   }
 
-  .post-content{
+  .post-content {
     width: fit-content;
   }
 }

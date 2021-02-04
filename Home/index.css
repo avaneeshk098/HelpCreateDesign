@@ -913,3 +913,12 @@ body {
   transition: all ease-in 350ms;
   color: #f2d338;
 }
+
+.login-submit a {
+  text-decoration: none;
+  color: white;
+}
+
+.login-submit a:hover {
+  color: black;
+}
