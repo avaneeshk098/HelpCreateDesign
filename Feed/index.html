@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>HelpCreate - Feed</title>
+  </head>
+  <body>
+    <!-- Navbar Mobile-->
+    <nav class="navbar nav-mobile">
+      <div class="nav-logo">
+        <a href="" id="nav-burger">
+          <div class="burger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </a>
+        <img src="../HelpCreate Text Logo.png" class="nav-img" />
+      </div>
+      <div class="nav-links-div">
+        <ul class="nav-links-list">
+          <a href="#"><li class="nav-links">Home</li></a>
+          <a href="#"><li class="nav-links active">Feed</li></a>
+          <a href="#"><li class="nav-links">Dashboard</li></a>
+          <a href="#"><li class="nav-links">Chat</li></a>
+        </ul>
+      </div>
+    </nav>
+    <!-- End of Navbar Mobile -->
+    <!-- Navbar Desktop-->
+    <nav class="navbar-desk">
+      <img src="../HelpCreate Text Logo.png" class="navbar-img" />
+      <ul class="nav-links-list-desk">
+        <a href="#"><li class="nav-links-desk active">Feed</li></a>
+        <a href="/Dashboard/"><li class="nav-links-desk">Dashboard</li></a>
+        <a href="/Chat"><li class="nav-links-desk">Chat</li></a>
+        <a href="/Home"><li class="nav-links-desk">Logout</li></a>
+      </ul>
+    </nav>
+    <!-- End of Navbar Desktop -->
+    <main>
+      <div class="filter">
+        <h3>Filter</h3>
+        <details class="filter-category">
+          <summary class="filter-summary">Categories</summary>
+          <div class="filter-content">
+            <div class="filter-field">
+              <input
+                type="checkbox"
+                name="filter-1"
+                id="filter-1"
+                class="filter-check"
+              />
+              <label for="filter-1" class="filter-label">Filter Name</label>
+            </div>
+            <div class="filter-field">
+              <input
+                type="checkbox"
+                name="filter-2"
+                id="filter-2"
+                class="filter-check"
+              />
+              <label for="filter-2" class="filter-label">Filter Name</label>
+            </div>
+            <div class="filter-field">
+              <input
+                type="checkbox"
+                name="filter-3"
+                id="filter-3"
+                class="filter-check"
+              />
+              <label for="filter-3" class="filter-label">Filter Name</label>
+            </div>
+            <div class="filter-field">
+              <input
+                type="checkbox"
+                name="filter-4"
+                id="filter-4"
+                class="filter-check"
+              />
+              <label for="filter-4" class="filter-label">Filter Name</label>
+            </div>
+            <div class="filter-field">
+              <input
+                type="checkbox"
+                name="filter-5"
+                id="filter-5"
+                class="filter-check"
+              />
+              <label for="filter-5" class="filter-label">Filter Name</label>
+            </div>
+          </div>
+        </details>
+        <details class="filter-category">
+          <summary class="filter-summary">Categories</summary>
+          <div class="filter-content">
+            <div class="filter-field">
+              <input
+                type="checkbox"
+                name="filter-1"
+                id="filter-1"
+                class="filter-check"
+              />
+              <label for="filter-1" class="filter-label">Filter Name</label>
+            </div>
+            <div class="filter-field">
+              <input
+                type="checkbox"
+                name="filter-2"
+                id="filter-2"
+                class="filter-check"
+              />
+              <label for="filter-2" class="filter-label">Filter Name</label>
+            </div>
+            <div class="filter-field">
+              <input
+                type="checkbox"
+                name="filter-3"
+                id="filter-3"
+                class="filter-check"
+              />
+              <label for="filter-3" class="filter-label">Filter Name</label>
+            </div>
+            <div class="filter-field">
+              <input
+                type="checkbox"
+                name="filter-4"
+                id="filter-4"
+                class="filter-check"
+              />
+              <label for="filter-4" class="filter-label">Filter Name</label>
+            </div>
+            <div class="filter-field">
+              <input
+                type="checkbox"
+                name="filter-5"
+                id="filter-5"
+                class="filter-check"
+              />
+              <label for="filter-5" class="filter-label">Filter Name</label>
+            </div>
+          </div>
+        </details>
+        <details class="filter-category">
+          <summary class="filter-summary">Categories</summary>
+          <div class="filter-content">
+            <div class="filter-field">
+              <input
+                type="radio"
+                name="filter"
+                id="filter-1"
+                class="filter-check"
+              />
+              <label for="filter" class="filter-label">Filter Name</label>
+            </div>
+            <div class="filter-field">
+              <input
+                type="radio"
+                name="filter"
+                id="filter-2"
+                class="filter-check"
+              />
+              <label for="filter" class="filter-label">Filter Name</label>
+            </div>
+            <div class="filter-field">
+              <input
+                type="radio"
+                name="filter"
+                id="filter-3"
+                class="filter-check"
+              />
+              <label for="filter" class="filter-label">Filter Name</label>
+            </div>
+            <div class="filter-field">
+              <input
+                type="radio"
+                name="filter"
+                id="filter-4"
+                class="filter-check"
+              />
+              <label for="filter" class="filter-label">Filter Name</label>
+            </div>
+            <div class="filter-field">
+              <input
+                type="radio"
+                name="filter"
+                id="filter-5"
+                class="filter-check"
+              />
+              <label for="filter" class="filter-label">Filter Name</label>
+            </div>
+          </div>
+        </details>
+        <details class="filter-category">
+          <summary class="filter-summary">Categories</summary>
+          <div class="filter-content">
+            <div class="range-wrap">
+              <div class="range-value" id="rangeV"></div>
+              <input
+                id="range"
+                type="range"
+                min="1"
+                max="5"
+                value="1"
+                step="1"
+              />
+            </div>
+          </div>
+        </details>
+      </div>
+      <div class="feed-posts">
+        <div class="sort-container">
+          <p>Sort by:</p>
+          <select>
+            <option>Recent</option>
+            <option>Popularity</option>
+            <option>Top</option>
+          </select>
+        </div>
+        <div class="post-content">
+          <div class="post">
+            <div class="photo-info">
+              <img src="logo1.jpeg" alt="Logo of company 1" class="logo" />
+              <a href="#">
+                <div class="profile-info">
+                  <img
+                    src="profile-img.jpg"
+                    alt="Maker's Profile Picture"
+                    class="profile"
+                  />
+                  <span>John Doe</span>
+                </div>
+              </a>
+            </div>
+            <div class="idea-info">
+              <h3>Idea Name</h3>
+              <p>
+                Meh. You guys realize you live in a sewer, right? I haven't felt
+                much of anything since my guinea pig died. Look, everyone wants
+                to be like Germany, but do we really have the pure strength of
+                'will'? Whoa a real live robot; or is that some kind of cheesy
+                New Year's costume? I feel like I was mauled by Jesus. This is
+                the worst part. The calm before the battle. What are you hacking
+                off? Is it my torso?! 'It is!' My precious torso! Bender, quit
+                destroying the universe! I decline the title of Iron Cook and
+                accept the lesser title of Zinc Saucier, which I just made
+                up.....<a href="">Read more</a>
+              </p>
+            </div>
+          </div>
+          <div class="buttons">
+            <div class="button">
+              <svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                id="Layer_1"
+                x="0px"
+                y="0px"
+                viewBox="0 0 24 24"
+                xml:space="preserve"
+              >
+                <path
+                  d="M7.359 8.483H1.867c-.967 0-1.754.786-1.754 1.753V20.73c0 .967.787 1.753 1.754 1.753h5.492c.967 0 1.754-.786 1.754-1.753V10.236c0-.966-.787-1.753-1.754-1.753z"
+                />
+                <path
+                  d="M23.887 11.036c0-1.588-2.131-2.553-3.066-2.553h-4.214c.715-3.115-.149-4.893-.757-5.697-.602-.795-1.432-1.27-2.221-1.27-.613 0-1.141.289-1.443.796a.505.505 0 0 0-.071.257v2.686c-.605 1.746-1.196 3.111-2 4.145v11.979c.189.063.371.106.52.106h9.227c.434 0 .856-.226 1.229-.649.516-.592.861-1.504.874-2.252.748-.562 1.104-1.588 1.038-3 .805-.836.755-2.023.493-2.756.329-.47.391-1.267.391-1.792z"
+                /></svg
+              >&nbsp;&nbsp;Like
+            </div>
+            <div class="button">
+              <svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                id="Layer_1"
+                x="0px"
+                y="0px"
+                viewBox="0 0 16 16"
+                xml:space="preserve"
+              >
+                <path
+                  d="M14 10h-4v3c0 1.103-.897 2-2 2H6.5a.5.5 0 0 1-.5-.5v-2.367L4.066 8.748A.493.493 0 0 1 4 8.5v-7a.5.5 0 0 1 .5-.5h8.025a2 2 0 0 1 1.827 1.188l1.604 3.609A.491.491 0 0 1 16 6v2c0 1.103-.897 2-2 2z"
+                />
+                <path d="M0 8.5v-7A.5.5 0 0 1 .5 1H3v8H.5a.5.5 0 0 1-.5-.5z" />
+              </svg>
+              &nbsp;&nbsp;Dislike
+            </div>
+            <div class="button">
+              <svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="8"
+                viewBox="0 0 8 8"
+              >
+                <path
+                  d="M5 0v2C1 2 0 4.05 0 7c.52-1.98 2-3 4-3h1v2l3-3.16L5 0z"
+                /></svg
+              >&nbsp;&nbsp;Share
+            </div>
+            <div class="button">
+              <svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                height="32px"
+                style="enable-background: new 0 0 28 32"
+                version="1.1"
+                viewBox="0 0 28 32"
+                width="28px"
+                xml:space="preserve"
+              >
+                <g id="Layer_1" />
+                <g id="comment_x5F_alt2_x5F_fill">
+                  <g>
+                    <path
+                      d="M14,0C6.27,0,0,6.27,0,14c0,3.832,1.547,7.297,4.043,9.828L4,32l6.703-4.434    C11.766,27.828,12.859,28,14,28c7.73,0,14-6.27,14-14S21.73,0,14,0z"
+                    />
+                  </g>
+                </g></svg
+              >&nbsp;&nbsp; Comment
+            </div>
+          </div>
+        </div>
+        <div class="post-content">
+          <div class="post">
+            <div class="photo-info">
+              <img src="logo1.jpeg" alt="Logo of company 1" class="logo" />
+              <a href="#">
+                <div class="profile-info">
+                  <img
+                    src="profile-img.jpg"
+                    alt="Maker's Profile Picture"
+                    class="profile"
+                  />
+                  <span>John Doe</span>
+                </div>
+              </a>
+            </div>
+            <div class="idea-info">
+              <h3>Idea Name</h3>
+              <p>
+                Meh. You guys realize you live in a sewer, right? I haven't felt
+                much of anything since my guinea pig died. Look, everyone wants
+                to be like Germany, but do we really have the pure strength of
+                'will'? Whoa a real live robot; or is that some kind of cheesy
+                New Year's costume? I feel like I was mauled by Jesus. This is
+                the worst part. The calm before the battle. What are you hacking
+                off? Is it my torso?! 'It is!' My precious torso! Bender, quit
+                destroying the universe! I decline the title of Iron Cook and
+                accept the lesser title of Zinc Saucier, which I just made
+                up.....<a href="">Read more</a>
+              </p>
+            </div>
+          </div>
+          <div class="buttons">
+            <div class="button">
+              <svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                id="Layer_1"
+                x="0px"
+                y="0px"
+                viewBox="0 0 24 24"
+                xml:space="preserve"
+              >
+                <path
+                  d="M7.359 8.483H1.867c-.967 0-1.754.786-1.754 1.753V20.73c0 .967.787 1.753 1.754 1.753h5.492c.967 0 1.754-.786 1.754-1.753V10.236c0-.966-.787-1.753-1.754-1.753z"
+                />
+                <path
+                  d="M23.887 11.036c0-1.588-2.131-2.553-3.066-2.553h-4.214c.715-3.115-.149-4.893-.757-5.697-.602-.795-1.432-1.27-2.221-1.27-.613 0-1.141.289-1.443.796a.505.505 0 0 0-.071.257v2.686c-.605 1.746-1.196 3.111-2 4.145v11.979c.189.063.371.106.52.106h9.227c.434 0 .856-.226 1.229-.649.516-.592.861-1.504.874-2.252.748-.562 1.104-1.588 1.038-3 .805-.836.755-2.023.493-2.756.329-.47.391-1.267.391-1.792z"
+                /></svg
+              >&nbsp;&nbsp;Like
+            </div>
+            <div class="button">
+              <svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                id="Layer_1"
+                x="0px"
+                y="0px"
+                viewBox="0 0 16 16"
+                xml:space="preserve"
+              >
+                <path
+                  d="M14 10h-4v3c0 1.103-.897 2-2 2H6.5a.5.5 0 0 1-.5-.5v-2.367L4.066 8.748A.493.493 0 0 1 4 8.5v-7a.5.5 0 0 1 .5-.5h8.025a2 2 0 0 1 1.827 1.188l1.604 3.609A.491.491 0 0 1 16 6v2c0 1.103-.897 2-2 2z"
+                />
+                <path d="M0 8.5v-7A.5.5 0 0 1 .5 1H3v8H.5a.5.5 0 0 1-.5-.5z" />
+              </svg>
+              &nbsp;&nbsp;Dislike
+            </div>
+            <div class="button">
+              <svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="8"
+                viewBox="0 0 8 8"
+              >
+                <path
+                  d="M5 0v2C1 2 0 4.05 0 7c.52-1.98 2-3 4-3h1v2l3-3.16L5 0z"
+                /></svg
+              >&nbsp;&nbsp;Share
+            </div>
+            <div class="button">
+              <svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                height="32px"
+                style="enable-background: new 0 0 28 32"
+                version="1.1"
+                viewBox="0 0 28 32"
+                width="28px"
+                xml:space="preserve"
+              >
+                <g id="Layer_1" />
+                <g id="comment_x5F_alt2_x5F_fill">
+                  <g>
+                    <path
+                      d="M14,0C6.27,0,0,6.27,0,14c0,3.832,1.547,7.297,4.043,9.828L4,32l6.703-4.434    C11.766,27.828,12.859,28,14,28c7.73,0,14-6.27,14-14S21.73,0,14,0z"
+                    />
+                  </g>
+                </g></svg
+              >&nbsp;&nbsp; Comment
+            </div>
+          </div>
+        </div>
+        <div class="post-content">
+          <div class="post">
+            <div class="photo-info">
+              <img src="logo1.jpeg" alt="Logo of company 1" class="logo" />
+              <a href="#">
+                <div class="profile-info">
+                  <img
+                    src="profile-img.jpg"
+                    alt="Maker's Profile Picture"
+                    class="profile"
+                  />
+                  <span>John Doe</span>
+                </div>
+              </a>
+            </div>
+            <div class="idea-info">
+              <h3>Idea Name</h3>
+              <p>
+                Meh. You guys realize you live in a sewer, right? I haven't felt
+                much of anything since my guinea pig died. Look, everyone wants
+                to be like Germany, but do we really have the pure strength of
+                'will'? Whoa a real live robot; or is that some kind of cheesy
+                New Year's costume? I feel like I was mauled by Jesus. This is
+                the worst part. The calm before the battle. What are you hacking
+                off? Is it my torso?! 'It is!' My precious torso! Bender, quit
+                destroying the universe! I decline the title of Iron Cook and
+                accept the lesser title of Zinc Saucier, which I just made
+                up.....<a href="">Read more</a>
+              </p>
+            </div>
+          </div>
+          <div class="buttons">
+            <div class="button">
+              <svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                id="Layer_1"
+                x="0px"
+                y="0px"
+                viewBox="0 0 24 24"
+                xml:space="preserve"
+              >
+                <path
+                  d="M7.359 8.483H1.867c-.967 0-1.754.786-1.754 1.753V20.73c0 .967.787 1.753 1.754 1.753h5.492c.967 0 1.754-.786 1.754-1.753V10.236c0-.966-.787-1.753-1.754-1.753z"
+                />
+                <path
+                  d="M23.887 11.036c0-1.588-2.131-2.553-3.066-2.553h-4.214c.715-3.115-.149-4.893-.757-5.697-.602-.795-1.432-1.27-2.221-1.27-.613 0-1.141.289-1.443.796a.505.505 0 0 0-.071.257v2.686c-.605 1.746-1.196 3.111-2 4.145v11.979c.189.063.371.106.52.106h9.227c.434 0 .856-.226 1.229-.649.516-.592.861-1.504.874-2.252.748-.562 1.104-1.588 1.038-3 .805-.836.755-2.023.493-2.756.329-.47.391-1.267.391-1.792z"
+                /></svg
+              >&nbsp;&nbsp;Like
+            </div>
+            <div class="button">
+              <svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                id="Layer_1"
+                x="0px"
+                y="0px"
+                viewBox="0 0 16 16"
+                xml:space="preserve"
+              >
+                <path
+                  d="M14 10h-4v3c0 1.103-.897 2-2 2H6.5a.5.5 0 0 1-.5-.5v-2.367L4.066 8.748A.493.493 0 0 1 4 8.5v-7a.5.5 0 0 1 .5-.5h8.025a2 2 0 0 1 1.827 1.188l1.604 3.609A.491.491 0 0 1 16 6v2c0 1.103-.897 2-2 2z"
+                />
+                <path d="M0 8.5v-7A.5.5 0 0 1 .5 1H3v8H.5a.5.5 0 0 1-.5-.5z" />
+              </svg>
+              &nbsp;&nbsp;Dislike
+            </div>
+            <div class="button">
+              <svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="8"
+                viewBox="0 0 8 8"
+              >
+                <path
+                  d="M5 0v2C1 2 0 4.05 0 7c.52-1.98 2-3 4-3h1v2l3-3.16L5 0z"
+                /></svg
+              >&nbsp;&nbsp;Share
+            </div>
+            <div class="button">
+              <svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                height="32px"
+                style="enable-background: new 0 0 28 32"
+                version="1.1"
+                viewBox="0 0 28 32"
+                width="28px"
+                xml:space="preserve"
+              >
+                <g id="Layer_1" />
+                <g id="comment_x5F_alt2_x5F_fill">
+                  <g>
+                    <path
+                      d="M14,0C6.27,0,0,6.27,0,14c0,3.832,1.547,7.297,4.043,9.828L4,32l6.703-4.434    C11.766,27.828,12.859,28,14,28c7.73,0,14-6.27,14-14S21.73,0,14,0z"
+                    />
+                  </g>
+                </g></svg
+              >&nbsp;&nbsp; Comment
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="add-posts"></div>
+    </main>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
